@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="icon" type="image/png" href="http://clipart-library.com/img/1232905.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <audio id="bgMusic" loop>
+        <source src="kanta.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <script>
+        document.body.addEventListener("click", function() {
+            let music = document.getElementById("bgMusic");
+            music.play().catch(error => {
+                console.error("Playback prevented:", error);
+            });
+        }, { once: true });
+    </script>
+
+    
+    <div id="link">
+     <img src="paologo.png" width="200px" class="linkpic">   
+    <a href="#target" class="home"><b>About</b></a>
+    <a href="#target2" class="portfolio"><b>Portfolio</b></a>
+    </div>
+        
+    <div class="sidebar">
+    <img src="land.png" id="sidepic" width="100px">    
+    <div class="info">
+    <a href="https://www.instagram.com/paolowered_/" target="_blank" id="logo"><img src="instagram.png" width="70"></a>
+    <a href="https://www.facebook.com/pineda.paolo.t" target="_blank" id="logo"><img src="facebook.png" width="70"></a>
+    </div>
+
+    </div>
+    
+    <br>
+
+    <div id="text">
+    <pre id="paolo"><b>Paolo Tanglao<img src="red.gif" width="100px" id="butterfly"></b></pre> 
+    </div>
+
+    <br><p id="paragraph">Hi! My name is Paolo Tanglao, and I’m from Salapungan, San Nicolas, San Fernando, Pampanga. I’m 16 years old <br>and currently a Senior High School student at Pampanga High School. This is my fifth year in high school,<br>and while most of those years have been spent focusing on my studies and exploring different interests, this year feels special <br>because it’s my very first year learning how to code.
+                        I’ve always been curious about how websites, apps, and <br>programs work behind the scenes. At first glance, coding seemed intimidating, just a wall of strange symbols and words. But as <br>I started learning step-by-step, I discovered that it’s actually like solving puzzles and building something entirely from scratch.<br> It can be challenging, but that’s exactly what makes it exciting.
+                        My goal is to grow my skills from creating simple pages to developing<br> more advanced projects. More than just learning the technical side, I want to use coding to build things that are useful, creative, and <br> inspiring for others.This is just the start of my journey, and I’m ready to embrace the challenges ahead and see how far I can go.
+    </p>
+
+<div id="target">
+        <a href="#link" class="back"><b>⮜BACK</b></a>
+        <br>
+     <section id="section">
+        <div id="oloap">
+         <img src="paolo.jpg" id="pangalan"> 
+            <pre id="pre"><b><font size="100px"><font color="darkred">P</font>aolo P. Tanglao<img src="red.gif" width="100px" id="butterfly"></font>
+
+
+Birthday : <font color="darkred">November/28/2008</font>                                    Age :<font color="darkred"> 16</font>
+
+Contact # : <font color="darkred">+63 622 930 2458</font>                                       City : <font color="darkred">CSFP</font>
+
+Email : <font color="darkred">tanglaopaolop@gmail.com</font>
+           </b></pre></div>
+       </section> 
+</div>
+        
+    <div id="target2">
+        <a href="#link" class="back"><b>⮜BACK</b></a>
+        <center><p id="services">SER<font color="darkred">V</font>ICES</p></center> 
+        <br>
+            <div class="lengk">
+            <a href="webpage.html" target="iframe" id="lengk1"><B>WebPage</B></a> 
+            <a href="poster.html" target="iframe" id="lengk2"><B>Poster</B></a>
+           
+
+           </div>   
+          <br>
+        <iframe src="" name="iframe"></iframe>
+    </div>
+
+
+</body> 
+</html>
